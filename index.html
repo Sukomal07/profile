@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sukomal Dutta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" type="img/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            Green: '#C5F82A',
+            grey: '#333333',
+            Darkgrey: '#1F1F1F',
+            OffBlack: '#141414'
+
+          },
+          fontFamily: {
+            inter: ['Inter']
+          }
+        },
+      },
+    } 
+  </script>
+</head>
+
+<body class="bg-OffBlack flex flex-col gap-8 justify-center items-center min-h-screen">
+
+  <div class="flex flex-col justify-center items-center space-y-2 bg-Darkgrey p-6 md:p-8 rounded-lg">
+    <img class="rounded-full w-24 h-24 object-cover" src="./img/photo.jpg" alt="avatar" />
+
+    <h1 class="text-white text-4xl font-normal">
+      Sukomal Dutta
+    </h1>
+    <p class="text-gray-400 text-xl text-center">
+      Full Stack Developer
+    </p>
+    <span class="text-Green text-sm text-center">Kharagpur, India</span>
+
+    <div class="flex flex-col w-full space-y-4 pt-1">
+      <a href="mailto:sukomaldutta99@gmail.com" target="_blank"
+        class="flex justify-center items-center bg-grey rounded-md py-1 hover:scale-105 transform transition duration-300 ease-in-out hover:bg-Green">
+        <i class="fas fa-envelope text-2xl text-rose-500"></i>
+      </a>
+      <a href="https://github.com/Sukomal07" target="_blank"
+        class="flex justify-center items-center bg-grey rounded-md py-1 hover:scale-105 transform transition duration-300 ease-in-out hover:bg-Green ">
+        <i class="fab fa-github  text-2xl text-blue-500"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/duttasukomal/" target="_blank"
+        class="flex justify-center items-center bg-grey rounded-md py-1 hover:scale-105 transform transition duration-300 ease-in-out hover:bg-Green">
+        <i class="fab fa-linkedin-in text-blue-500 text-2xl"></i>
+      </a>
+
+      <a href="https://twitter.com/CryptoOrbiT6" target="_blank"
+        class="flex justify-center items-center bg-grey rounded-md py-1 hover:scale-105 transform transition duration-300 ease-in-out hover:bg-Green">
+        <i class="fab fa-twitter text-blue-400 text-2xl"></i>
+      </a>
+
+      <a href="https://www.instagram.com/dutta_sukomal/" target="_blank"
+        class="flex justify-center items-center bg-grey rounded-md py-1 hover:scale-105 transform transition duration-300 ease-in-out hover:bg-Green">
+        <i class="fab fa-instagram text-pink-600 text-2xl"></i>
+      </a>
+    </div>
+  </div>
+
+</body>
+
+</html>
